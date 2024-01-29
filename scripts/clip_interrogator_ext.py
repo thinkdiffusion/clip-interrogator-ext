@@ -63,7 +63,7 @@ def load(clip_model_name):
 
         config = Config(
             device=devices.get_optimal_device(),
-            cache_path = 'models/clip-interrogator',
+            cache_path = 'clip-interrogator',
             clip_model_name=clip_model_name,
         )
         if low_vram:
